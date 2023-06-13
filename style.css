@@ -1,0 +1,404 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #010100;
+    display: flex;
+    justify-content: stretch;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    height: 7%;
+    background-color: hwb(0 0% 100%);
+    padding-top: 1%;
+}
+
+
+.item-menu{
+   display: inline-flex;
+}
+
+#menu-container{
+    width: 2%;
+    height: 55%;
+    margin-left: 1%;    
+    background-image: url(img/menu.png);
+    background-size: cover;
+}
+
+#logo-container{
+    width: 7%;
+    height: 43%;
+    margin-left: 1%;
+    background-image: url(img/logo.png);
+    background-size: cover;
+}
+
+#search-microfone{
+    margin-left: 20%;
+    padding: 0%;
+    width: 35%;
+    background-color: black;
+}
+
+#search-contain{
+    margin: 0%;
+    width: 83%;
+    background-color: black;
+}
+
+#search{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+}
+
+#submit{
+    margin: 0%;
+    width: 10%;
+    background-color: rgb(94, 92, 92); 
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#submit:hover{
+    background-color: rgba(222, 221, 221, 0.766);
+
+}
+
+#submit img{
+    margin-top: 10%;
+    width: 35%;
+}
+
+#microfone{
+    width: 7%;
+    margin-left:0%; 
+    background-color: #010100;
+
+}
+
+#microfone img{
+    width: 70%;
+}
+
+
+#video-section{
+    width:70% ;
+    height: 100%;
+    background-color: black;
+}
+
+
+
+#video-contain{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient( rgb(115, 114, 114), rgb(2, 2, 2));
+    padding-left: 8%;
+    padding-top: 6%;
+}
+
+
+#video-contain iframe{
+    width: 96%;
+    height: 70%;
+}
+
+#video-name{
+    font-size: small;
+    font-weight:bold;
+    color: white;
+}
+#video-bar{
+    width: 96%;
+    height: 10%;
+}
+
+#channel-img{
+    border-radius: 50px;
+    width: 4% ;
+    display: block;
+    float:left ;
+}
+
+#channel{
+    margin-left: 1%;
+    margin-top: 0%;
+    display: block;
+    float: left;
+}
+
+#channel-name{
+    font-size: small;
+    font-weight:bold;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0.1%;
+}
+
+#subs{
+    font-size: xx-small;
+    color: darkgrey;
+    font-weight: lighter;
+    margin:0%;
+}
+
+#subscribe{
+    background-color: rgb(214, 214, 214);
+    width: 10%;
+    margin-left: 3%;
+    height: 32%;
+    font-size: x-small;
+    text-align: center;
+    border-radius: 15px;
+    float: left;
+    padding-top: 0.5%;
+}
+
+#subscribe h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top :0%;
+    font-weight: 500;
+}
+
+.video-bar-icons{
+    background-color: rgba(161, 161, 161, 0.677);
+    width: 10%;
+    height: 35%;
+    float: left;
+    padding-top: 0.5%;
+    border-radius: 15px;
+}
+
+#likes{
+    margin-left: 28%;
+    border-radius: 15px;
+}
+
+.video-icons-text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top :0%;
+    font-weight: 500;
+    margin-left: 10%;
+    color: white;
+    font-size: x-small;
+    float: left; 
+}
+
+
+#like-img{
+    float: left;
+    width: 20%;
+    margin-left: 1%;
+}
+#unlike-img{
+    width: 20%;
+}
+
+#apart{
+    margin-left: 2%;
+}
+
+#shares{
+    margin-left: 3%;
+}
+
+#share-img{
+    float: left;
+    width: 20%;
+    margin-left: 12%;
+}
+
+#dowloads{
+    margin-left: 3%;
+}
+
+#download-img{
+    float: left;
+    width: 20%;
+}
+
+#more-options{
+    background-color: rgba(181, 181, 181, 0.874);
+    width: 3%;
+    height: 40%;
+    float: right;
+    border-radius: 50px;
+    color: black;
+}
+
+#more-options h3{
+    margin-top: 0.5%;
+    text-align: center;
+    color: white;
+    font-size: x-small;
+}
+
+
+#video-description{
+
+    width: 96%;
+    height: 10%;
+    background-color: rgba(79, 80, 81, 0.688);
+    color: rgb(214, 214, 214);
+    border-radius: 3px;
+}
+
+#video-description h5{
+    padding: 0%;
+    margin: 1%;
+    font-family: Arial;
+    font-weight:lighter;
+    font-size: x-small;
+}
+
+#video-comments{
+    width: 100%;
+    height: 50vh;
+    background-color: #010100;
+    padding-left: 8%;
+}
+
+#comment-user-log{
+    width: 100%;
+    height: 10%;
+    margin-top: 1%;
+}
+
+.comment-img {
+    border-radius: 50px;
+    width: 4%;
+    float: left;
+}
+
+#make-comment{
+    width: 90%;
+    height: 60%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    background-color: #000000;
+    border-style: none;
+    border-bottom-style: solid;
+}
+
+
+#users-comments{
+    width: 100%;
+    height: 50%;
+    color:rgb(208, 208, 208)
+}
+#user-name{
+    margin-left: 5%;
+    font-size: x-small;
+    font-family: arial;
+    margin-bottom: 0%;
+}
+
+#comment{
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+
+}
+
+#comment h4{
+    margin-top: 0.5%;
+    font-size: x-small;
+    font-family: Arial;
+    font-weight: lighter;
+}
+
+#likes-unlikes img{
+    width: 2%;
+    float: left;
+}
+ 
+#comment-like{
+    margin-left:6%;
+}
+
+#comment-unlike{
+    margin-left: 1%;
+}
+
+#likes-unlikes p{
+    float: left;
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 1%;
+    margin-top: 0%;
+}
+
+.users-comments{
+    margin-bottom: 6%;
+}
+
+#video-suggestion{
+    width: 28%;
+    margin-left:5% ;
+    padding-top: 5%;
+}
+
+#tags{
+    width: 100%;
+}
+
+.tag{
+    background-color: rgba(166, 166, 166, 0.638);
+    text-align: center;
+    padding: 2%;
+    border-radius: 5px;
+    float: left;
+    margin-left: 3%;
+}
+
+.tag h3{
+    margin: 0%;
+    font-size: x-small;
+    font-family: Arial;
+    color: black;
+    font-weight: 100;
+}
+
+
+#miniatures{
+    width: 100%;
+    padding: 5%;
+}
+
+.miniature{
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.text {
+    width: 50%; 
+    float: right;
+    height: auto;
+    padding-top: 10%;
+}
+.miniature img{
+   width: 40%; 
+   height: auto;
+   margin-left: 5%;
+   margin-top: 6%;
+}
+
+ #title{
+    color: white;
+    font-size: x-small;
+    margin-top: 6%;
+
+}
+
+.miniature p{  
+    color: rgb(216, 213, 213);
+    font-size: x-small;
+}
